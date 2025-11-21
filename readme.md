@@ -222,3 +222,22 @@ _______________________________________________________
 | Maven / Gradle         | NuGet + csproj             |
 _______________________________________________________
 ---
+
+---
+# ✅ Java vs .NET File Equivalents (Complete Table)
+_____________________________________________________________________________________________________________________________________________________________
+| **Java File**        | **Purpose**                                 | **.NET Equivalent**                                                                  |
+|----------------------|---------------------------------------------|--------------------------------------------------------------------------------------|
+| `.java`              | Java source code                            | `.cs` (C# source code)                                                               |
+| `.class`             | JVM bytecode produced by `javac`            | `.dll` / `.exe` (CIL/MSIL bytecode compiled by Roslyn)                               |
+| `.jar`               | Java library package (collection of .class) | `.dll` (Class Library Assembly)                                                      |
+| `.war`               | Web application archive (JSP/Servlet-based) | Published ASP.NET Web App Folder (contains .dll + static files)                      |
+| `.ear`               | Enterprise archive (multiple .war + EJB)    | No direct equivalent — replaced by multiple microservices or Azure App Services      | 
+| `.properties`        | Config file                                 | `appsettings.json` / `.config`                                                       |
+| `.jsp`               | Java Server Pages                           | Razor (`.cshtml`)                                                                    |
+| `.xml`               | Bean definitions                            | `appsettings.json` + Dependency Injection container                                  |
+_____________________________________________________________________________________________________________________________________________________________
+---
+Thanks Regards,
+Brijesh Nishad
+(Software Engineer)
