@@ -208,11 +208,12 @@ Answer:
 
 ---
 # ✅ Java → .NET Technology Mapping
+--Prerequisite:C/C++/SQL/JS
 _______________________________________________________
 | **Java Technology**    | **.NET Equivalent**        |
-|-------------------------|---------------------------|
-| Java                    | C#                        |
-| JEE                    | .NET Framework 4.x         |
+|------------------------|----------------------------|
+| Java                   | C#                         |
+| JEE                    |WF/Asp.NET Framework 4.x    |
 | Spring Core            | Old ASP.NET (MVC / Web API)|
 | Spring Boot            | ASP.NET Core               |
 | Spring Data JPA        | Entity Framework Core      |
