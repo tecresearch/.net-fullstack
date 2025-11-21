@@ -202,10 +202,6 @@ Answer:
     - Microservices → .NET Microservices (Minimal API, gRPC, Docker)  
     - Spring Security → .NET Identity + JWT Authentication  
 
-
-
-
-
 ---
 # ✅ Java → .NET Technology Mapping
 --Prerequisite:C/C++/SQL/JS
@@ -237,6 +233,76 @@ ________________________________________________________________________________
 | `.jsp`               | Java Server Pages                           | Razor (`.cshtml`)                                                                    |
 | `.xml`               | Bean definitions                            | `appsettings.json` + Dependency Injection container                                  |
 _____________________________________________________________________________________________________________________________________________________________
+---
+---
+# ✅ 360° View: JDK vs .NET SDK
+
+## ⭐ High-Level Architecture Comparison
+______________________________________________________________________________________________________________
+| **Layer / Component**   | **Java (JDK)**                    | **.NET (.NET SDK)**                          |
+|-------------------------|-----------------------------------|----------------------------------------------|
+| Language                | Java                              | C#, F#, VB.NET                               |
+| Compiler                | `javac`                           | Roslyn (`csc`, `vbc`)                        |
+| Intermediate Code       | `.class` (Java bytecode)          | `.dll` / `.exe` (IL - Intermediate Language) |
+| Runtime Engine          | JVM (Java Virtual Machine)        | CLR (Common Language Runtime)                |
+| Execution Model         | Bytecode → JVM JIT → Machine code | IL → CLR JIT → Machine code                  |
+| Standard Libraries      | Java Standard Library             | .NET Base Class Library (BCL)                |
+| Packaging               | `.jar`, `.war`, `.ear`            | `.dll`, `.exe`, Published folder             |
+| Build Tools             | Maven, Gradle                     | dotnet CLI, MSBuild                          |
+| Framework               | Spring, Hibernate                 | ASP.NET Core, EF Core                        |
+| Garbage Collector       | JVM GC                            | CLR GC                                       |
+| Cross-platform          | Yes (JDK 11+)                     | Yes (.NET 6/7/8/9)                           |
+______________________________________________________________________________________________________________
+---
+
+## 🎯 What JDK Contains (Full 360° Overview)
+__________________________________________________________________________
+| **JDK Component**       | **Purpose**                                  |
+|--------------------------|-------------------------------------------- |
+| JVM                     | Runs Java bytecode                           |
+| JRE                     | JVM + basic libraries                        |
+| `javac`                 | Compiles `.java` → `.class`                  |
+| Jar tool                | Creates `.jar` packages                      |
+| Debugger (`jdb`)        | Debug Java apps                              |
+| Javadoc                 | Generates documentation                      |
+| `javap`                 | Bytecode viewer                              |
+| Java Standard Libraries | Collections, IO, Networking, etc.            |
+__________________________________________________________________________
+---
+
+## 🎯 What .NET SDK Contains (Full 360° Overview)
+__________________________________________________________________________
+| **.NET SDK Component**  | **Purpose**                                  |
+|-------------------------|----------------------------------------------|
+| CLR                     | Executes IL code                             |
+| .NET Runtime            | Everything needed to run .NET apps           |
+| Roslyn compiler         | Compiles `.cs` → `.dll` / `.exe`             |
+| dotnet CLI              | Build, run, publish                          |
+| MSBuild                 | Project building                             |
+| NuGet                   | Package manager                              |
+| BCL (Base Class Library)| Collections, IO, Networking, etc.            |
+| ASP.NET Core            | Web application framework                    |
+| EF Core                 | ORM (like Hibernate)                         |
+__________________________________________________________________________
+---
+
+## 📌 One-Line Summary
+**JDK** = Complete Java ecosystem  
+**.NET SDK** = Complete .NET ecosystem  
+
+Both contain:  
+✔ Compiler  
+✔ Runtime  
+✔ Base libraries  
+✔ Tools  
+✔ Debuggers  
+✔ Packagers  
+
+But:  
+🔹 Roslyn alone ≠ JDK  
+🔹 .NET SDK = JDK  
+
+
 ---
 Thanks Regards,
 Brijesh Nishad
