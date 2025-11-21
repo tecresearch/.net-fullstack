@@ -304,6 +304,9 @@ But:
 
 
 ---
-Thanks Regards,
+```
+Thanks & Regards,
 Brijesh Nishad
 (Software Engineer)
+
+```
