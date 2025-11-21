@@ -165,7 +165,7 @@ Answer:
   - Core Java → Core C#  
   - Advanced Java → Advanced C# (Collections → Collections & LINQ)  
   - JDBC → ADO.NET  
-  - J2EE → ASP.NET (OLD - WebForms)  
+  - J2EE → ASP.NET (OLD - WebForms) on .Net Framework 4.x
   - Banking Web App → Banking Web App in ASP.NET Core  
 
 - **21/01/2025 – 04/02/2025**  
@@ -201,3 +201,23 @@ Answer:
     - Web Services → gRPC / SOAP via WCF Core  
     - Microservices → .NET Microservices (Minimal API, gRPC, Docker)  
     - Spring Security → .NET Identity + JWT Authentication  
+
+
+
+
+
+---
+# ✅ Java → .NET Technology Mapping
+_______________________________________________________
+| **Java Technology**    | **.NET Equivalent**        |
+|-------------------------|---------------------------|
+| Java                    | C#                        |
+| JEE                    | .NET Framework 4.x         |
+| Spring Core            | Old ASP.NET (MVC / Web API)|
+| Spring Boot            | ASP.NET Core               |
+| Spring Data JPA        | Entity Framework Core      |
+| JPA / Hibernate        | EF Core ORM                |
+| Tomcat / Jetty         | Kestrel                    |
+| Maven / Gradle         | NuGet + csproj             |
+_______________________________________________________
+---
