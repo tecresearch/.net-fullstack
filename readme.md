@@ -251,7 +251,7 @@ ________________________________________________________________________________
 | Build Tools             | Maven, Gradle                     | dotnet CLI, MSBuild                          |
 | Framework               | Spring, Hibernate                 | ASP.NET Core, EF Core                        |
 | Garbage Collector       | JVM GC                            | CLR GC                                       |
-| Cross-platform          | Yes (JDK 11+)                     | Yes (.NET 6/7/8/9)                           |
+| Cross-platform          | Yes (JDK 11+)                     | Yes (.NET 6/7/8/9/10)                           |
 ______________________________________________________________________________________________________________
 ---
 
