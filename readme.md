@@ -166,7 +166,7 @@ Answer:
   - Advanced Java → Advanced C# (Collections → Collections & LINQ)  
   - JDBC → ADO.NET  
   - J2EE → ASP.NET (OLD - WebForms) on .Net Framework 4.x
-  - Banking Web App → Banking Web App in ASP.NET Core  
+  - Banking Web App → Banking Web App in ASP.NET  
 
 - **21/01/2025 – 04/02/2025**  
   - Hibernate Framework → Entity Framework (ORM)  
